@@ -1,8 +1,8 @@
 import { motion, useInView, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import { Play } from "lucide-react";
-import aiOverview from "@/assets/ai-overview.jpg";
-import heroBg from "@/assets/hero-bg.jpg";
+import aiOverview from "../assets/ai-overview.jpg";
+import heroBg from "../assets/hero-bg.jpg";
 
 const VideoSection = () => {
   const ref = useRef(null);

@@ -1,7 +1,7 @@
 import { motion, useInView, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
-import eventPhoto from "@/assets/event-photo.jpg";
-import aiAbstract from "@/assets/ai-abstract.jpg";
+import eventPhoto from "../assets/event-photo.jpg";
+import aiAbstract from "../assets/ai-abstract.jpg";
 
 const OverviewSection = () => {
   const ref = useRef(null);

@@ -2,7 +2,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { Calendar, Clock, MapPin, ChevronDown } from "lucide-react";
 import { useRef } from "react";
 import AnimatedBackground from "./AnimatedBackground";
-import heroBg from "@/assets/hero-bg.jpg";
+import heroBg from "../assets/hero-bg.jpg";
 
 const HeroSection = () => {
   const ref = useRef(null);
